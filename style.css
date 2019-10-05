@@ -230,6 +230,7 @@ nav{
 
 #container-scroll{
     overflow-x: scroll;
+    overflow-y: hidden;
     padding-left: 11%;
 }
 
@@ -244,7 +245,7 @@ nav{
 .container-scroll2{
     display: flex;
     flex-flow: row;
-    width: 4260px;
+    width: 230%;
     height: auto;
     /* background-color: orange */
 }
@@ -1068,7 +1069,7 @@ nav{
     .container-scroll2{
         display: flex;
         flex-flow: row;
-        width: 3160px;
+        width: 240%;
         height: auto;
         /* background-color: orange */
     }
@@ -1170,15 +1171,15 @@ nav{
 
 #subtitulocaja4{
     font-size: 14px;
-    margin-top: -38px;
-    padding-left: 117px;
+    margin-top: -33px;
+    padding-left: 98px;
     -webkit-transform: rotate(-90deg)
 }
 
 #subtitulocaja5{
     font-size: 14px;
-    margin-top: -38px;
-    padding-left: 147px;
+    margin-top: 124px;
+    padding-left: 125px;
     -webkit-transform: rotate(-90deg)
 }
 
@@ -1193,7 +1194,7 @@ nav{
 
 .container3{
     /* background-color: rgb(25, 0, 255);*/
-    width: 700px;
+    width: 59vw;
     height: auto;
     margin-top: 21vh;
     display: Flex;
@@ -1326,8 +1327,8 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top:-230px;
-    left: -30px
+    top: -282px;
+    left: 100px;
 }
 
 .squarefondo5 {
@@ -1347,7 +1348,8 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top: -440px
+    top: -116px;
+    left: 103px;
 }
 
 #scrollright1{
@@ -1427,6 +1429,7 @@ nav{
 
 #logoinwork{
     width: 35px;
+    object-fit: cover;
 }
 
 .container5{
@@ -2089,6 +2092,7 @@ nav{
 
 #logoinwork{
     width: 40px;
+    object-fit: cover;
 }
 
 .container5{
@@ -2881,6 +2885,7 @@ nav{
 
 #logoinwork{
     width: 5vw;
+    object-fit: cover;
 }
 
 .container5{
@@ -3722,16 +3727,17 @@ nav{
 
 #logoinwork{
     width: 40px;
+    object-fit: cover;
 }
 
 .container5{
     display:flex;
     flex-flow: column;
     justify-content: space-between;
-    height: 350px;
+    height: 0%;
     padding-left:37px;
     padding-right:23px;
-    padding-bottom: 280px
+    padding-bottom: 8px
 }
 
 #title4{
