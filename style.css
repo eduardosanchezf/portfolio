@@ -245,7 +245,7 @@ nav{
 .container-scroll2{
     display: flex;
     flex-flow: row;
-    width: 230%;
+    width: 250%;
     height: auto;
     /* background-color: orange */
 }
@@ -332,7 +332,6 @@ nav{
     flex-flow: row; 
     align-items: flex-start;
     justify-content: center;
-    margin-top: 24vh;
     height: auto;
     margin-left: 13vw
 }
@@ -363,10 +362,10 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 353px;
+    width: 303px;
     position: relative;
     margin-top: 116px;
-    margin-left: -229px;
+    margin-left: -189px;
 }
 
 #titulocaja{
@@ -391,8 +390,8 @@ nav{
 
 #subtitulocaja3{
     font-size: 18px;
-    margin-top: -8px;
-    padding-left: 37px;
+    margin-top: 32px;
+    padding-left: 74px;
     -webkit-transform: rotate(-90deg)
 }
 
@@ -412,7 +411,7 @@ nav{
 
 .container3{
     /* background-color: rgb(25, 0, 255);*/
-    width: 80vh;
+    width: 142vh;
     height: auto;
     margin-top: 24vh;
     display: Flex;
@@ -423,7 +422,7 @@ nav{
 .container-photo2{
     display:flex;
     flex-flow: column;
-    margin-left: 1vw;
+    margin-left: -1vw;
 }
 
 .segundacaja{
@@ -454,7 +453,7 @@ nav{
   .container-photo3{
     display:flex;
     flex-flow: column;
-    margin-left: 13%;
+    margin-left: 7%;
 }
 
 .terceracaja{
@@ -462,8 +461,8 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     position:relative;
-    top: -50px;
-    left: -40px;
+    top: -73px;
+    left: -62px;
 }
 
 .squarefondo3 {
@@ -478,6 +477,10 @@ nav{
 #moodboard-image{
     height: 50vh;
 }
+
+#moodboard-image:hover {
+    content: url("./IMAGENES/dolcissime.png")
+  }
 
 .container-photo4{
     display:flex;
@@ -550,6 +553,30 @@ nav{
     position:relative;
     top: -142px;
     left: 127px;
+}
+
+#mobile-image2{
+    height: 50vh;
+}
+
+#mobile-image2:hover {
+    content: url("./IMAGENES/varios.png")
+  }
+
+.sextacaja{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position:relative;
+    top: -53px;
+    left: 37px;
+}
+
+#subtitulocaja6{
+    font-size: 18px;
+    margin-top: -4px;
+    padding-left: 37px;
+    -webkit-transform: rotate(-90deg)
 }
 
 #scrollright1{
@@ -1066,10 +1093,12 @@ nav{
         width: 80%
     }
 
+    
+
     .container-scroll2{
         display: flex;
         flex-flow: row;
-        width: 240%;
+        width: 256%;
         height: auto;
         /* background-color: orange */
     }
@@ -1164,8 +1193,8 @@ nav{
 
 #subtitulocaja3{
     font-size: 14px;
-    margin-top: -5px;
-    padding-left: 25px;
+    margin-top: 35px;
+    padding-left: 74px;
     -webkit-transform: rotate(-90deg)
 }
 
@@ -1187,14 +1216,13 @@ nav{
     display:flex;
     flex-flow: column; 
     align-items: flex-end;
-    margin-top: 21vh;
-    margin-left: 240px;
+    margin-left: 14vw;
     height: auto;
 }
 
 .container3{
     /* background-color: rgb(25, 0, 255);*/
-    width: 59vw;
+    width: 105vw;
     height: auto;
     margin-top: 21vh;
     display: Flex;
@@ -1273,7 +1301,7 @@ nav{
   .container-photo3{
     display:flex;
     flex-flow: column;
-    margin-left: 9%;
+    margin-left: 6%;
 }
 
   .terceracaja{
@@ -1281,7 +1309,7 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     position:relative;
-    top: -43px
+    top: -60px
 }
 
 .squarefondo3 {
@@ -1296,12 +1324,12 @@ nav{
   .container-photo4{
     display:flex;
     flex-flow: column;
-    margin-left: 3vh;
+    margin-left: 1vh;
 }
 
 #moodboard-image{
     height: 50vh;
-    margin-left: 3%;
+    margin-left: 0%;
 }
 
 .squarefondo4 {
@@ -1327,7 +1355,7 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top: -282px;
+    top: -223px;
     left: 100px;
 }
 
@@ -1337,6 +1365,12 @@ nav{
     background-color: #d8d8d8;
     margin-top:130px
   }
+
+  .container-photo5{
+    display:flex;
+    flex-flow: column;
+    margin-left: 9%;
+}
 
   #mobile-image{
     height: 50vh;
@@ -1351,6 +1385,7 @@ nav{
     top: -116px;
     left: 103px;
 }
+
 
 #scrollright1{
     display:flex;
@@ -1736,7 +1771,7 @@ nav{
     }
 
     #container-scroll{
-        overflow-x: none;
+        overflow-x: hidden;
         padding-left: 11%;
     }
 
@@ -1744,7 +1779,7 @@ nav{
         display: flex;
         flex-flow: column;
         width: 70vw;
-        height: 2915px;
+        height: 1724px;
         /* background-color: orange */
     }
 
@@ -1825,12 +1860,56 @@ nav{
     width: 30%
 }
 
+#titulocaja{
+    font-size: 17px;
+    font-weight: bold;
+    -webkit-transform: none;
+    width: 220px
+}
+
+#subtitulocaja{
+    font-size: 14px;
+    margin-top: 0px;
+    padding-left: 162px;
+    margin-right: 29px;
+    -webkit-transform: none
+}
+
+#subtitulocaja2{
+    font-size: 14px;
+    margin-top: 2px;
+    padding-left: 0px;
+    -webkit-transform: none
+}
+
+#subtitulocaja3{
+    font-size: 14px;
+    margin-top: 2px;
+    padding-left: 1px;
+    -webkit-transform: none
+}
+
+#subtitulocaja4{
+    font-size: 14px;
+    margin-top: -34px;
+    padding-left: 117px;
+    -webkit-transform: none;
+    margin-right: 21px;
+}
+
+#subtitulocaja5{
+    font-size: 14px;
+    margin-top: -34px;
+    padding-left: 147px;
+    -webkit-transform: none;
+    margin-right: 19px;
+}
+
 #photoyback{
     display:flex;
     flex-flow: column; 
     margin-top: 137px;
-    height: 400px;
-    width: 600px
+    margin-left: 0vw;
 }
 
 .container3{
@@ -1838,30 +1917,27 @@ nav{
     width: 600px;
     margin-top:0px;
     display: Flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: flex-start;
 }
 
 .container4{
-    width: 600px;
     /* background-color: orange;*/
-    height: 600px;
-    margin-top: 180px;
+    margin-top: 10px;
     display: Flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: flex-start;
 }
 
 .container-photo4{
     display:flex;
     flex-flow: column;
-    margin-left: 2vw;
+    margin-left: 0vw;
 }
 
 #patchwork-image{
-    width: 208px;
+    height: 26vh;
     z-index: 1;
-    margin-right: 300px;
 }
 
 #patchwork-image:hover {
@@ -1885,28 +1961,31 @@ nav{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 300px;
-    right:-20px;
-    position: relative;
-    top:-50px;
-    margin-right: 300px;
+    top: -10vh;
+    right: -11vh;
+
 }
 
 .container-photo2{
     display:flex;
     flex-flow: column;
-    margin-left: 39vw;
+    margin-left: 3vw;
     height: 300px;
+    margin-top: 137px;
 }
 
 .segundacaja{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -40px;
+    margin-left:0px;
+    z-index: 2;
+    width: 200px;
 }
 
 #mockup-image{
-    width: 336px;
+    height: 26vh;
 }
 
 .squarefondo2 {
@@ -1922,9 +2001,8 @@ nav{
   .container-photo3{
     display:flex;
     flex-flow: column;
-    margin-left: 18%;
-    margin-top: 100px;
-    height: 400px;
+    margin-left: 3vw;
+    margin-top: 137px;
 }
 
   .terceracaja{
@@ -1932,7 +2010,8 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     position:relative;
-    top: -75px
+    top: -22px;
+    left: 10px;
 }
 
 .squarefondo3 {
@@ -1945,8 +2024,8 @@ nav{
   }
 
 #moodboard-image{
-    width: 389px;
-    margin-left: 4%;
+    height: 26vh;
+    margin-left: 0%;
 }
 
 .squarefondo4 {
@@ -1960,9 +2039,9 @@ nav{
   }
 
   #render-image{
-    width: 376px;
+    height: 26vh;
     z-index: 2;
-    margin-left:160px
+    margin-left:0px
 }
 
 #render-image:hover {
@@ -1974,15 +2053,16 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top:-230px;
-    left: -168px
+    top: -365px;
+    left: 19px;
+    z-index: 2;
 }
 
 .container-photo5{
     display:flex;
     flex-flow: column;
-    margin-left: 18%;
-    margin-top: -51%
+    margin-left: 3vw;
+    margin-top: 0%
 }
 
 .squarefondo5 {
@@ -1993,9 +2073,33 @@ nav{
   }
 
   #mobile-image{
-    width: 234px;
+    height: 26vh;
     position: relative;
-    top: -150px;
+    top: 0px;
+}
+
+#mobile-image2{
+    height: 26vh;
+}
+
+#mobile-image2:hover {
+    content: url("./IMAGENES/varios.png")
+  }
+
+.sextacaja{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position:relative;
+    top: -364px;
+    left: 1px;
+}
+
+#subtitulocaja6{
+    font-size: 14px;
+    margin-top: -38px;
+    padding-left: 2px;
+    -webkit-transform: none
 }
 
 
@@ -2004,7 +2108,10 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top: -454px
+    top: -367px;
+    right: 0px;
+    margin-right: 15px;
+    left: 31px;
 }
 
 #scrollright1{
@@ -2091,8 +2198,7 @@ nav{
 }
 
 #logoinwork{
-    width: 40px;
-    object-fit: cover;
+    height: 40px;
 }
 
 .container5{
@@ -2171,7 +2277,7 @@ nav{
 }
 
 #scrollright4{
-    width: 90px
+    width: 12vw
 }
 
 #contacto-container{
@@ -2500,7 +2606,7 @@ nav{
     }
 
     #container-scroll{
-        overflow-x: none;
+        overflow-x: hidden;
         padding-left: 11%;
     }
 
@@ -2508,7 +2614,7 @@ nav{
         display: flex;
         flex-flow: column;
         width: 86vw;
-        height: 2714px;
+        height: 1554px;
         /* background-color: orange */
     }
 
@@ -2589,52 +2695,86 @@ nav{
     width: 30%
 }
 
-#photoyback{
-    display:flex;
-    flex-flow: column; 
-    margin-top: 60px;
-    height: 400px;
-    width: 85vw
-}
-
 #titulocaja{
-    font-size: 14px;
-    font-weight: bold
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-transform: none;
+    width: 174px;
 }
 
 #subtitulocaja{
     font-size: 12px;
+    margin-top: 0px;
+    padding-left: 162px;
+    margin-right: 91px;
+    -webkit-transform: none
+}
+
+#subtitulocaja2{
+    font-size: 12px;
+    margin-top: 2px;
+    padding-left: 0px;
+    -webkit-transform: none
+}
+
+#subtitulocaja3{
+    font-size: 12px;
+    margin-top: 2px;
+    padding-left: 1px;
+    -webkit-transform: none
+}
+
+#subtitulocaja4{
+    font-size: 12px;
+    margin-top: -47px;
+    -webkit-transform: none;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#subtitulocaja5{
+    font-size: 12px;
+    margin-top: -45px;
+    padding-left: 147px;
+    -webkit-transform: none;
+    margin-right: 123px;
+}
+
+#photoyback{
+    display:flex;
+    flex-flow: column; 
+    margin-top: 54px;
+    margin-left: 0vw;
 }
 
 .container3{
     /* background-color: rgb(25, 0, 255);*/
-    width: 20vw;
+    width: 600px;
     margin-top:0px;
     display: Flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: flex-start;
 }
 
 .container4{
-    width: 70vw;
     /* background-color: orange;*/
-    height: 600px;
-    margin-top: 60px;
+    margin-top: 0px;
     display: Flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: flex-start;
 }
 
 .container-photo4{
     display:flex;
     flex-flow: column;
-    margin-left: 11%;
+    margin-left: 0vw;
 }
 
 #patchwork-image{
-    width: 188px;
+    height: 26vh;
     z-index: 1;
-    margin-right: 42vw;
 }
 
 #patchwork-image:hover {
@@ -2648,9 +2788,9 @@ nav{
     height: 229px;
     background-color: #d8d8d8;
     position: relative;
-    top: -70px;
+    top: -40px;
     right: -20px;
-    margin-right: 42vw;
+    margin-right: 300px;
     z-index:-1
   }
 
@@ -2658,29 +2798,31 @@ nav{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 300px;
-    right:-20px;
-    position: relative;
-    top:-83px;
-    margin-right: 42vw;
+    top: -12vh;
+    right: -6vh;
+
 }
 
 .container-photo2{
     display:flex;
     flex-flow: column;
-    margin-left: 29vw;
-    margin-top:-65px;
+    margin-left: 5vw;
     height: 300px;
+    margin-top: 54px;
 }
 
 .segundacaja{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -44px;
+    margin-left:0px;
+    z-index: 2;
+    width: 200px;
 }
 
 #mockup-image{
-    width: 286px;
+    height: 26vh;
 }
 
 .squarefondo2 {
@@ -2688,17 +2830,16 @@ nav{
     height: 200px;
     background-color: #d8d8d8;
     position:relative;
-    top: 90px;
-    right: -37px;
+    top: 60px;
+    right: -90px;
     z-index:-1
   }
 
   .container-photo3{
     display:flex;
     flex-flow: column;
-    margin-left: 14%;
-    margin-top: 100px;
-    height: 400px;
+    margin-left: 3vw;
+    margin-top: 54px;
 }
 
   .terceracaja{
@@ -2706,7 +2847,8 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     position:relative;
-    top: -130px
+    top: -10px;
+    left: 2px;
 }
 
 .squarefondo3 {
@@ -2714,13 +2856,14 @@ nav{
     height: 237px;
     background-color: #d8d8d8;
     position:relative;
-    top: -120px;
+    top: -60px;
     z-index:-1
   }
 
 #moodboard-image{
-    width: 319px;
-    margin-left: 4%;
+    height: 26vh;
+    margin-left: 0%;
+    width: 23.5vw;
 }
 
 .squarefondo4 {
@@ -2729,14 +2872,15 @@ nav{
     background-color: #d8d8d8;
     position:relative;
     top: -220px;
-    left: 28vw
+    left: 180px
     
   }
 
   #render-image{
-    width: 306px;
+    height: 26vh;
+    width: 23.5vw;
     z-index: 2;
-    margin-left:20vw
+    margin-left:0px
 }
 
 #render-image:hover {
@@ -2746,30 +2890,55 @@ nav{
 .cuartacaja{
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     position:relative;
-    top:-230px;
-    left: -96px
+    top: -277px;
+    left: 1px;
+    z-index: 2;
 }
 
 .container-photo5{
     display:flex;
     flex-flow: column;
-    margin-left: 14%;
-    margin-top: -12vh
+    margin-left: 5vw;
+    margin-top: 0%
 }
 
 .squarefondo5 {
     width: 279px;
     height: 167px;
     background-color: #d8d8d8;
-
+    margin-top:200px
   }
 
   #mobile-image{
-    width: 224px;
+    height: 26vh;
     position: relative;
-    top: -150px;
+    top: 0px;
+}
+
+#mobile-image2{
+    height: 26vh;
+}
+
+#mobile-image2:hover {
+    content: url("./IMAGENES/varios.png")
+  }
+
+.sextacaja{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position:relative;
+    top: -278px;
+    left: 1px;
+}
+
+#subtitulocaja6{
+    font-size: 12px;
+    margin-top: -30px;
+    padding-left: 2px;
+    -webkit-transform: none
 }
 
 
@@ -2778,7 +2947,11 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top: -454px
+    top: -279px;
+    right: 0px;
+    margin-right: 15px;
+    left: 1px;
+    width: 175px;
 }
 
 #scrollright1{
@@ -2884,8 +3057,8 @@ nav{
 }
 
 #logoinwork{
-    width: 5vw;
-    object-fit: cover;
+    width: 40px;
+    height: 34px;
 }
 
 .container5{
@@ -2964,7 +3137,7 @@ nav{
 }
 
 #scrollright4{
-    width: 90px
+    width: 14vw
 }
 
 #contacto-container{
@@ -3347,7 +3520,7 @@ nav{
         display: flex;
         flex-flow: column;
         width: 80vw;
-        height: 2379px;
+        height: 474vh;
         /* background-color: orange */
     }
 
@@ -3430,26 +3603,64 @@ nav{
     width: 200px
 }
 
-#photoyback{
-    display:flex;
-    flex-flow: column; 
-    margin-top: 60px;
-    width: 88vw
-}
-
 #titulocaja{
-    font-size: 12px;
-    font-weight: bold
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-transform: none;
+    width: 184px;
 }
 
 #subtitulocaja{
-    font-size: 10px;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-left: 162px;
+    margin-right: 101px;
+    -webkit-transform: none
+}
+
+#subtitulocaja2{
+    font-size: 12px;
+    margin-top: 2px;
+    padding-left: 0px;
+    -webkit-transform: none
+}
+
+#subtitulocaja3{
+    font-size: 12px;
+    margin-top: 2px;
+    padding-left: 1px;
+    -webkit-transform: none
+}
+
+#subtitulocaja4{
+    font-size: 12px;
+    margin-top: -47px;
+    -webkit-transform: none;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+
+#subtitulocaja5{
+    font-size: 12px;
+    margin-top: -45px;
+    padding-left: 147px;
+    -webkit-transform: none;
+    margin-right: 123px;
+}
+
+#photoyback{
+    display:flex;
+    flex-flow: column; 
+    margin-top: 54px;
+    margin-left: 0vw;
+    height: 70vh;
 }
 
 .container3{
     /* background-color: rgb(25, 0, 255);*/
-    width: 85vw;
-    height: 400px;
+    width: 250px;
     margin-top:0px;
     display: Flex;
     flex-flow: column;
@@ -3457,25 +3668,26 @@ nav{
 }
 
 .container4{
-    width: 85vw;
     /* background-color: orange;*/
-    margin-top: 40px;
+    width: 250px;
+    margin-top: 0px;
     display: Flex;
     flex-flow: column;
     align-items: flex-start;
-    margin-left:0px
 }
 
 .container-photo4{
     display:flex;
     flex-flow: column;
-    margin-left: 11%;
+    margin-left: 0vw;
+    margin-top: 6vh;
 }
 
 #patchwork-image{
-    width: 168px;
+    width: 59vw;
+    height: auto;
+    margin-left: 8vw;
     z-index: 1;
-    margin-right: 100px;
 }
 
 #patchwork-image:hover {
@@ -3489,8 +3701,9 @@ nav{
     height: 229px;
     background-color: #d8d8d8;
     position: relative;
-    top: -200px;
-    right: 80px;
+    top: -40px;
+    right: -20px;
+    margin-right: 300px;
     z-index:-1
   }
 
@@ -3498,28 +3711,33 @@ nav{
     display:flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 300px;
-    right:82px;
-    position: relative;
-    top:-210px;
+    top: -21vh;
+    right: -18vh;
+
 }
 
 .container-photo2{
     display:flex;
     flex-flow: column;
-    margin-top:-230px;
+    margin-left: 0vw;
     height: 300px;
-    margin-left:0px
+    margin-top: -64px;
 }
 
 .segundacaja{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -21px;
+    margin-left: 34px;
+    z-index: 2;
+    width: 200px;
 }
 
 #mockup-image{
-    width: 276px;
+    width: 59vw;
+    height: auto;
+    margin-left: 8vw;
 }
 
 .squarefondo2 {
@@ -3527,17 +3745,16 @@ nav{
     height: 200px;
     background-color: #d8d8d8;
     position:relative;
-    top: 90px;
-    right: -21px;
+    top: 60px;
+    right: -90px;
     z-index:-1
   }
 
   .container-photo3{
     display:flex;
     flex-flow: column;
-    height: 400px;
-    margin-left:-25px;
-    margin-top:55px
+    margin-left: 0vw;
+    margin-top: 10vh;
 }
 
   .terceracaja{
@@ -3545,39 +3762,41 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     position:relative;
-    top: -170px;
-    margin-left:25px;
+    top: -10px;
+    left: 32px;
 }
 
 .squarefondo3 {
-    width: 250px;
+    width: 311px;
     height: 237px;
     background-color: #d8d8d8;
     position:relative;
-    top: -158px;
-    margin-left:25px;
+    top: -60px;
     z-index:-1
   }
 
 #moodboard-image{
-    width: 269px;
-    margin-left: 12%;
+    width: 59vw;
+    height: auto;
+    margin-left: 8vw;
+    margin-top: 8vh;
 }
 
 .squarefondo4 {
     width: 168px;
-    height: 159px;
+    height: 279px;
     background-color: #d8d8d8;
     position:relative;
-    top: -128px;
-    left: 50px
+    top: -220px;
+    left: 180px
     
   }
 
   #render-image{
-    width: 236px;
+    width: 59vw;
+    height: auto;
+    margin-left: 8vw;
     z-index: 2;
-    margin-left:0px
 }
 
 #render-image:hover {
@@ -3587,30 +3806,61 @@ nav{
 .cuartacaja{
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     position:relative;
-    top:-136px;
-    left: -20px
+    top: -12px;
+    left: 30px;
+    z-index: 2;
 }
 
 .container-photo5{
     display:flex;
     flex-flow: column;
-    margin-left: 13%;
-    margin-top: -80%
+    margin-left: 5vw;
+    margin-top: 0%
 }
 
 .squarefondo5 {
-    width: 229px;
+    width: 279px;
     height: 167px;
     background-color: #d8d8d8;
     margin-top:200px
   }
 
   #mobile-image{
-    width: 224px;
-    position: relative;
-    top: -150px;
+    width: 59vw;
+    height: auto;
+    margin-left: 3vw;
+    margin-top:10vh;
+    top: 0px;
+}
+
+#mobile-image2{
+    width: 59vw;
+    height: auto;
+    margin-left: 3vw;
+    margin-top:10vh;
+    top: 0px;
+}
+
+#mobile-image2:hover {
+    content: url("./IMAGENES/varios.png")
+  }
+
+.sextacaja{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position:relative;
+    top: -10px;
+    left: 13px;
+}
+
+#subtitulocaja6{
+    font-size: 12px;
+    margin-top: -30px;
+    padding-left: 2px;
+    -webkit-transform: none
 }
 
 
@@ -3619,7 +3869,11 @@ nav{
     flex-direction: column;
     align-items: flex-end;
     position:relative;
-    top: -454px
+    top: -13px;
+    right: 0px;
+    margin-right: 15px;
+    left: 22px;
+    width: 175px;
 }
 
 #scrollright1{
@@ -3663,7 +3917,8 @@ nav{
     flex-flow: column;
     justify-content: space-between;
     align-items: flex-start;
-    margin-top: 30px
+    margin-top: 30px;
+    width: 210px
 }
 
 #aboutme{
@@ -3727,8 +3982,7 @@ nav{
 
 #logoinwork{
     width: 40px;
-    object-fit: cover;
-    height: 35px;
+    height: 34px
 }
 
 .container5{
@@ -3905,7 +4159,7 @@ nav{
     border-radius:20px;
     font-weight: bolder;
     letter-spacing: 0.5px;
-    width: 182px;
+    width: 200px;
     height: 40px;
     margin-left: 15%;
     margin-top: 10%;
@@ -3995,3 +4249,31 @@ nav{
 
 
 }
+
+
+
+@media only screen and (min-height: 800px) and (max-height: 820px) {
+
+    .container-scroll2{
+        display: flex;
+        flex-flow: column;
+        width: 80vw;
+        height: 410vh;
+        /* background-color: orange */
+    }
+
+}
+
+
+@media only screen and (max-height: 580px) {
+
+    .container-scroll2{
+        display: flex;
+        flex-flow: column;
+        width: 80vw;
+        height: 500vh;
+        /* background-color: orange */
+    }
+
+}
+
